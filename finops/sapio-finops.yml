@@ -1,0 +1,60 @@
+name: Sapio Sciences FinOps
+description: >-
+  Sapio Sciences uses a custom enterprise pricing model for its lab informatics
+  platform. There are no publicly listed per-API-call or consumption-based costs.
+  The platform is licensed as software (SaaS or on-premises), with pricing
+  determined through direct negotiation based on organizational size, required
+  modules, deployment model, and add-ons selected. Financial operations
+  considerations center on license cost management, optional add-on selection,
+  and choosing between cloud-hosted and on-premises deployment models.
+url: https://www.sapiosciences.com/sapio-pricing/
+considerations:
+  - category: Licensing Model
+    description: >-
+      Sapio Sciences licenses its platform on a per-organization basis with
+      custom pricing. There are no publicly disclosed per-seat, per-user, or
+      per-API-call pricing tiers. Budget should be allocated for an annual or
+      multi-year software license.
+  - category: Deployment Cost
+    description: >-
+      Organizations can choose between cloud-hosted (SaaS) and on-premises
+      deployment. On-premises deployments incur additional infrastructure costs
+      (servers, networking, maintenance) that should be factored into total cost
+      of ownership.
+  - category: Add-On Costs
+    description: >-
+      Optional add-ons such as Sapio Analytics, Remote Workers, Webhooks, Data
+      Field Designer, Data Type Designer, Instrument Management, and Group
+      Management each carry additional licensing costs negotiated with Sapio
+      Sciences.
+  - category: Implementation and Consulting
+    description: >-
+      Sapio Sciences offers consulting and implementation services (Sapio
+      Consulting). Professional services engagements for configuration,
+      onboarding, and custom workflow development represent additional budget
+      line items beyond the core license.
+  - category: API Integration Costs
+    description: >-
+      The REST API and sapiopylib Python library are available as part of the
+      platform license. There are no separately billed API access tiers.
+      Webhook functionality is available as an add-on. Developer time for
+      building integrations is the primary cost driver.
+  - category: Training and Certification
+    description: >-
+      Sapio Sciences offers training and certification programs for platform
+      engineers. Training costs should be budgeted for technical staff who will
+      build and maintain API integrations and custom workflows.
+optimization:
+  - Use batch request processing via sapiopylib to reduce the number of API
+    calls and optimize performance without additional cost.
+  - Evaluate which add-ons (Webhooks, Remote Workers, Analytics) are required
+    before signing a contract to avoid paying for unused capabilities.
+  - Consider the fully bundled ELN + LIMS package vs. individual modules to
+    maximize value if both are needed.
+  - Request a free trial to validate integration requirements before committing
+    to a license.
+notes: >-
+  Sapio Sciences is a privately held company. Pricing is not publicly disclosed.
+  Capterra, G2, and SaaSworthy list the product but confirm pricing requires
+  direct vendor contact. For budget planning, engage Sapio Sciences via
+  https://www.sapiosciences.com/sapio-pricing/ to receive a formal proposal.

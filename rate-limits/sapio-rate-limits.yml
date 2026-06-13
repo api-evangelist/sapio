@@ -1,0 +1,42 @@
+name: Sapio Sciences API Rate Limits
+description: >-
+  Sapio Sciences does not publish explicit public rate limit documentation for
+  its REST API. The API is accessed through on-premises or cloud-hosted
+  instances of the Sapio Informatics Platform, meaning rate limits are
+  instance-specific and governed by the customer's own deployment configuration
+  and server capacity. The sapiopylib Python client library supports batch
+  request processing to optimize performance and reduce API call overhead.
+url: https://github.com/sapiosciences/sapio-py-tutorials
+limits:
+  - type: Batch Requests
+    description: >-
+      The sapiopylib client library supports client-based caching and batch
+      request processing to reduce individual REST calls and improve throughput
+      when manipulating large numbers of data records.
+    notes: >-
+      Batch processing is the recommended pattern for high-volume operations.
+      See the sapio-py-tutorials repository for implementation guidance.
+  - type: Instance-Based Limits
+    description: >-
+      API rate limits are determined by the individual Sapio platform instance
+      (on-premises or cloud-hosted). Limits vary based on server configuration,
+      deployment type, and license agreement with Sapio Sciences.
+    notes: >-
+      Contact your Sapio Sciences account representative or system administrator
+      for instance-specific rate limit information.
+authentication:
+  description: >-
+    The Sapio REST API uses session-based authentication. The sapiopylib client
+    connects to a Sapio server instance URL with credentials (username,
+    password, and optionally a custom verification key) to establish a session.
+    All subsequent API calls are made within that authenticated session context.
+  method: Session / Credential-Based
+  libraryUsage: >-
+    Instantiate SapioWebApiClient with server URL, username, password, and
+    optional verify parameter. The library manages session lifecycle
+    automatically.
+notes: >-
+  No public SLA or uptime commitment is documented. Customers should consult
+  their Sapio Sciences service agreement for availability guarantees. Rate
+  limiting details are not publicly disclosed and must be obtained from Sapio
+  Sciences support.

@@ -1,0 +1,58 @@
+name: Sapio Sciences Plans and Pricing
+description: >-
+  Sapio Sciences uses a custom proposal-based pricing model. Pricing is not
+  publicly listed; prospective customers must contact Sapio Sciences to receive
+  a tailored pricing proposal based on their specific laboratory needs, team
+  size, and required modules. The platform is offered in several application
+  bundles combining LIMS, ELN, and Scientific Data Cloud capabilities.
+url: https://www.sapiosciences.com/sapio-pricing/
+plans:
+  - name: Sapio ELN
+    description: >-
+      Electronic Lab Notebook solution providing the third-generation AI lab
+      notebook with structured scientific data capture, experiment tracking, and
+      collaboration features. Optional add-ons available.
+    pricing: Custom — contact for proposal
+    addOns:
+      - Ad-hoc Charting Add-On
+      - Group Management
+      - Data Field Designer
+      - Data Type Designer
+      - Remote Workers Add-On
+      - Webhooks
+      - Sapio Analytics
+  - name: Sapio LIMS
+    description: >-
+      Laboratory Information Management System with no-code configurable
+      workflows, sample management, audit trails, and instrument integration
+      support. Optional add-ons available.
+    pricing: Custom — contact for proposal
+    addOns:
+      - Ad-hoc Charting Add-On
+      - Group Management
+      - Data Field Designer
+      - Data Type Designer
+      - Remote Workers Add-On
+      - Webhooks
+      - Instrument Management and Maintenance Tracking
+      - Sapio Analytics
+  - name: Sapio ELN + LIMS
+    description: >-
+      Combined bundle of the Electronic Lab Notebook and Laboratory Information
+      Management System, providing a unified platform for all laboratory
+      informatics needs.
+    pricing: Custom — contact for proposal
+bundles:
+  - Clinical and Diagnostics
+  - Laboratory Platform
+  - Scientific Data Cloud
+  - Biotech Research and Discovery
+  - Next Generation Sequencing
+  - Chemistry Research and Discovery
+  - Sample Management
+  - Bioanalytical
+  - Multimodal Discovery
+notes: >-
+  A free trial is available. Sapio Sciences has historically listed 5 pricing
+  editions on comparison platforms. All pricing requires direct engagement with
+  a Sapio Sciences expert via https://www.sapiosciences.com/sapio-pricing/.

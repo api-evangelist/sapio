@@ -1,0 +1,84 @@
+aid: sapio
+name: Sapio Sciences
+description: >-
+  Sapio Sciences provides an AI-native lab informatics platform that unifies
+  LIMS, ELN, and Scientific Data Cloud capabilities for life sciences research.
+  The platform exposes a RESTful API enabling programmatic access to laboratory
+  workflows, experimental data, LIMS processes, sample management, and
+  instrument integrations. The official Python client library sapiopylib wraps
+  all REST API functions, supporting data record manipulation, picklist services,
+  notebook experiments, webhook servers, and batch request processing for
+  high-performance lab automation.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/sapio/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - LIMS
+  - ELN
+  - Laboratory Informatics
+  - Life Sciences
+  - Scientific Data
+  - Lab Automation
+  - Instrument Integration
+  - Biotech
+  - Pharma
+apis:
+  - aid: sapio:sapio-rest-api
+    name: Sapio REST API
+    description: >-
+      The Sapio REST API provides programmatic access to the Sapio Informatics
+      Platform, enabling developers to query and create records, manage laboratory
+      workflows, handle experimental data, configure data types, manage users and
+      picklists, and implement webhook-based automation. The official Python client
+      sapiopylib exposes the full API surface including batch request support for
+      performance-optimized lab data operations.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.sapiosciences.com/
+    baseURL: https://your-instance.sapiosciences.com
+    tags:
+      - LIMS
+      - ELN
+      - Laboratory Workflows
+      - Scientific Data
+      - Webhooks
+      - Instrument Integration
+    properties:
+      - type: Documentation
+        url: https://github.com/sapiosciences/sapio-py-tutorials
+      - type: PythonSDK
+        url: https://pypi.org/project/sapiopylib/
+      - type: GitHubRepository
+        url: https://github.com/sapiosciences/sapio-py-tutorials
+      - type: Plans
+        url: plans/sapio-plans-pricing.yml
+      - type: RateLimits
+        url: rate-limits/sapio-rate-limits.yml
+      - type: FinOps
+        url: finops/sapio-finops.yml
+common:
+  - type: Website
+    url: https://www.sapiosciences.com/
+  - type: Documentation
+    url: https://github.com/sapiosciences/sapio-py-tutorials
+  - type: GitHubOrg
+    url: https://github.com/sapiosciences
+  - type: LinkedIn
+    url: https://linkedin.com/company/sapio-sciences-llc
+  - type: Blog
+    url: https://www.sapiosciences.com/blog
+  - type: Pricing
+    url: https://www.sapiosciences.com/sapio-pricing/
+  - type: X
+    url: https://x.com/sapiosciences
+  - type: Plans
+    url: plans/sapio-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/sapio-rate-limits.yml
+  - type: FinOps
+    url: finops/sapio-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
