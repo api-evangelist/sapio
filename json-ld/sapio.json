@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.sapiosciences.com/",
+  "name": "Sapio Sciences",
+  "url": "https://www.sapiosciences.com/",
+  "description": "Sapio Sciences provides an AI-native lab informatics platform that unifies LIMS, ELN, and Scientific Data Cloud capabilities for life sciences research. The platform exposes a RESTful API enabling programmatic access to laboratory workflows, experimental data, LIMS processes, sample management, and instrument integrations.",
+  "sameAs": [
+    "https://github.com/sapiosciences",
+    "https://linkedin.com/company/sapio-sciences-llc",
+    "https://x.com/sapiosciences",
+    "https://pypi.org/project/sapiopylib/"
+  ],
+  "keywords": [
+    "LIMS",
+    "ELN",
+    "Laboratory Informatics",
+    "Life Sciences",
+    "Scientific Data",
+    "Lab Automation",
+    "Instrument Integration",
+    "Biotech",
+    "Pharma"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "url": "https://www.sapiosciences.com/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.sapiosciences.com/sapio-pricing/",
+    "description": "Sapio Sciences platform pricing"
+  },
+  "hasPart": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Sapio REST API",
+      "description": "RESTful API providing programmatic access to the Sapio Informatics Platform for laboratory workflow automation, data record management, experiment tracking, and webhook-based integrations.",
+      "applicationCategory": "Scientific Software",
+      "operatingSystem": "Cloud",
+      "url": "https://github.com/sapiosciences/sapio-py-tutorials",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.sapiosciences.com/sapio-pricing/"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "sapiopylib",
+      "description": "Official Python client library for the Sapio Informatics Platform REST API, supporting data record manipulation, picklist services, notebook experiments, webhook servers, and batch request processing.",
+      "applicationCategory": "Developer Tools",
+      "programmingLanguage": "Python",
+      "url": "https://pypi.org/project/sapiopylib/",
+      "codeRepository": "https://github.com/sapiosciences/sapio-py-tutorials",
+      "license": "https://opensource.org/licenses/MPL-2.0"
+    }
+  ]
+}
