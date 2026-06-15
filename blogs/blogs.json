@@ -1,7 +1,7 @@
 {
   "provider": "Sapio Sciences",
   "url": "https://www.sapiosciences.com/blog",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Best ELNs for NGS Workflows",
@@ -53,5 +53,13 @@
       "url": "https://www.sapiosciences.com/blog/how-navignostics-built-a-digital-first-diagnostics-lab/",
       "description": "SapioCon 2026 presentation on automated cancer diagnostics infrastructure development."
     }
-  ]
+  ],
+  "repo": "sapio",
+  "feeds": [
+    {
+      "source": "https://linkedin.com/company/sapio-sciences-llc",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0
 }
