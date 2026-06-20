@@ -10,7 +10,7 @@ description: >-
   notebook experiments, webhook servers, and batch request processing for
   high-performance lab automation.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/sapio/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -35,7 +35,7 @@ apis:
       picklists, and implement webhook-based automation. The official Python client
       sapiopylib exposes the full API surface including batch request support for
       performance-optimized lab data operations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.sapiosciences.com/
     baseURL: https://your-instance.sapiosciences.com
     tags:
