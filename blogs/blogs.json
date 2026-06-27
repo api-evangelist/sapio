@@ -1,65 +1,21 @@
 {
-  "provider": "Sapio Sciences",
-  "url": "https://www.sapiosciences.com/blog",
-  "fetched": "2026-06-14T20:42:17Z",
-  "posts": [
-    {
-      "title": "Best ELNs for NGS Workflows",
-      "url": "https://www.sapiosciences.com/blog/best-elns-for-ngs-workflows/",
-      "description": "Guide for genomics leaders evaluating electronic lab notebooks for sequencing operations."
-    },
-    {
-      "title": "Best ELNs for GMP and Pharmaceutical Manufacturing",
-      "url": "https://www.sapiosciences.com/blog/best-elns-for-gmp-and-pharmaceutical-manufacturing/",
-      "description": "Resource for QA/QC directors assessing ELN platforms for regulated manufacturing environments."
-    },
-    {
-      "title": "The Data You Ignore Is the Data You Need",
-      "url": "https://www.sapiosciences.com/blog/the-data-you-ignore-is-the-data-you-need/",
-      "description": "Explores why discarded organizational data proves essential for artificial intelligence applications."
-    },
-    {
-      "title": "When to Stop Optimizing and Start Reimagining",
-      "url": "https://www.sapiosciences.com/blog/when-to-stop-optimizing-and-start-reimagining/",
-      "description": "Addresses critical decision-making in scientific AI deployment strategies."
-    },
-    {
-      "title": "The AI Readiness Gap Is Not a Technology Problem",
-      "url": "https://www.sapiosciences.com/blog/the-ai-readiness-gap-is-not-a-technology-problem/",
-      "description": "Discusses organizational preparation requirements preceding model implementation."
-    },
-    {
-      "title": "Good Science Runs on Good Data. AI Hasn't Changed That.",
-      "url": "https://www.sapiosciences.com/blog/good-science-runs-on-good-data-ai-hasnt-changed-that/",
-      "description": "Presents laboratory-derived lessons on practical artificial intelligence success."
-    },
-    {
-      "title": "Best LIMS Platforms for Sample Management",
-      "url": "https://www.sapiosciences.com/blog/best-lims-platforms-for-sample-management-comparing-leading-software-options/",
-      "description": "Comparative analysis for operations managers evaluating LIMS for specimen workflows."
-    },
-    {
-      "title": "Reflections from Pistoia Alliance London 2026",
-      "url": "https://www.sapiosciences.com/blog/pistoia-alliance-reflections-2026/",
-      "description": "Industry perspective on life sciences community direction and emerging priorities."
-    },
-    {
-      "title": "How the Wellcome Sanger Institute is building operations to match its science",
-      "url": "https://www.sapiosciences.com/blog/how-the-wellcome-sanger-institute-is-building-operations-to-match-its-science/",
-      "description": "Case study from SapioCon 2026 featuring cellular services operational strategy."
-    },
-    {
-      "title": "How Navignostics built a digital-first diagnostics lab",
-      "url": "https://www.sapiosciences.com/blog/how-navignostics-built-a-digital-first-diagnostics-lab/",
-      "description": "SapioCon 2026 presentation on automated cancer diagnostics infrastructure development."
-    }
-  ],
   "repo": "sapio",
   "feeds": [
     {
+      "source": "https://www.sapiosciences.com/feed/",
+      "feed_url": "https://www.sapiosciences.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://linkedin.com/company/sapio-sciences-llc",
-      "error": "HTTPError"
+      "feed_url": "https://linkedin.com/company/sapio-sciences-llc",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
+  "fetched": "2026-06-27T12:03:07Z",
   "post_count": 0
 }
