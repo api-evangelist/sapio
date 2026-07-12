@@ -59,6 +59,8 @@ apis:
       - type: FinOps
         url: finops/sapio-finops.yml
 common:
+  - type: DomainSecurity
+    url: security/sapio-domain-security.yml
   - type: Website
     url: https://www.sapiosciences.com/
   - type: Documentation
