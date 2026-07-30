@@ -10,7 +10,19 @@ description: >-
   notebook experiments, webhook servers, and batch request processing for
   high-performance lab automation.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sapio.png
 url: https://raw.githubusercontent.com/api-evangelist/sapio/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
