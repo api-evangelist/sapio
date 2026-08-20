@@ -55,6 +55,13 @@ apis:
       - ELN
       - Laboratory Workflows
       - Scientific Data
+      - Webhook
+      - Instrument Integration
+    tags_raw:
+      - LIMS
+      - ELN
+      - Laboratory Workflows
+      - Scientific Data
       - Webhooks
       - Instrument Integration
     properties:
