@@ -12,14 +12,18 @@ description: >-
 type: Index
 deliveryModel:
   model: saas
-  open_source: false
+  license_evidence:
+    not_product:
+    - sapiosciences/sapio-py-tutorials
+  open_source: unknown
   commercial: true
   callable_host: false
   label: Hosted service · you call their endpoint
-  confidence: medium
+  confidence: low
   source:
   - pricing
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -39,6 +43,16 @@ created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
+  - LIMS
+  - ELN
+  - Laboratory Informatics
+  - Life Sciences
+  - Scientific Data
+  - Lab Automation
+  - Instrument Integration
+  - Biotechnology
+  - Pharma
+tags_raw:
   - LIMS
   - ELN
   - Laboratory Informatics
