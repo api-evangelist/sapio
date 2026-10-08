@@ -60,3 +60,28 @@ notes: >-
   A free trial is available. Sapio Sciences has historically listed 5 pricing
   editions on comparison platforms. All pricing requires direct engagement with
   a Sapio Sciences expert via https://www.sapiosciences.com/sapio-pricing/.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Sapio ELN
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Sapio LIMS
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Sapio ELN + LIMS
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
